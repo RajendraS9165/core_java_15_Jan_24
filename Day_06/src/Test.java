@@ -1,0 +1,13 @@
+import pkg2.Employee;
+import pkg1.Address;
+
+
+public class Test {
+	
+	public static void main(String[] args) {
+		//Address add1 = new Address();
+		Employee emp1 = new Employee();
+		pkg1.Employee emp2 = new pkg1.Employee();
+	}
+
+}

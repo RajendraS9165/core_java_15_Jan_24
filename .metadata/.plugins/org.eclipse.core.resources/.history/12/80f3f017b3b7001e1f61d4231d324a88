@@ -1,0 +1,12 @@
+
+public class EmpyMain {
+
+	public static void main(String[] args) {
+		
+		Employee d1 = new Employee();
+		
+		d1.setId(12);
+
+	}
+
+}

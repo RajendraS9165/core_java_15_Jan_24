@@ -1,0 +1,18 @@
+
+public class MyDate {
+	
+	private int dd;
+	private int mm;
+	private int yy;
+	
+	
+	public MyDate() {
+		System.out.println("defafult constructor called");
+	}
+	
+	public void display() {
+		System.out.println(dd+"/"+mm+"/"+yy);
+	}
+	
+
+}

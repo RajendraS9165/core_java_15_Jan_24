@@ -1,0 +1,31 @@
+package com.swap;
+
+public class SwapDemo {
+	
+	public static void main(String[] args) {
+		MyDate date1 = new MyDate(1, 1, 2001);
+		MyDate date2 = new MyDate(2, 2, 2002);
+		
+		System.out.println("before swapping");
+		System.out.println("d1= "+date1+"    d2="+date2);
+		
+		swap(date1, date2);
+		
+		System.out.println("\nAfter swapping");
+		System.out.println("d1= "+date1+"    d2="+date2);
+	}
+	
+	
+	
+	public static void swap(MyDate d1, MyDate d2) {
+		int temp = d1.getDd();
+		d1.setDd(d2.getDd());
+		d2.setDd(temp);
+		
+		temp = d1.getMm();
+		d1.setMm(d2.getMm());
+		d2.setMm(temp);
+		
+	}
+
+}

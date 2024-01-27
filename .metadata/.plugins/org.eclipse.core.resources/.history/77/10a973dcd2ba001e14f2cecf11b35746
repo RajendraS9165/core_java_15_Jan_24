@@ -1,0 +1,25 @@
+package com.invision;
+
+public class Math {
+	
+//	public void add(int num1, int num2) {
+//		System.out.println("int, int");
+//	}
+	
+	public void add(int num1, int num2, int num3) {
+		System.out.println("int, int, int");
+	}
+	
+//	public void add(double num1, double num2) {
+//		System.out.println("double, double");
+//	}
+	
+	public void add(char num1, char num2) {
+		System.out.println("double, double");
+	}
+	
+//	public void add(float num1, float num2) {
+//		System.out.println("float, float");
+//	}
+
+}

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="Employee"/>
+    <fullyQualifiedTypeName name="pkg2.Employee"/>
+    <fullyQualifiedTypeName name="pkg1.Employee"/>
+    <fullyQualifiedTypeName name="pkg1.Address"/>
+    <fullyQualifiedTypeName name="com.invision.Math"/>
+    <fullyQualifiedTypeName name="com.invision.comp.Address"/>
+    <fullyQualifiedTypeName name="com.invision.comp.Employee"/>
+    <fullyQualifiedTypeName name="com.swap.MyDate"/>
+</qualifiedTypeNameHistroy>

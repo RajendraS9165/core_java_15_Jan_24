@@ -1,0 +1,13 @@
+
+public class MyDate {
+	
+	private int dd;
+	private int mm;
+	private int yy;
+	
+	void display() {
+		System.out.println(dd+"/"+mm+"/"+yy);
+	}
+	
+
+}

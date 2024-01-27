@@ -1,0 +1,22 @@
+
+public class Test2 {
+	
+	public static void main(String[] args) {
+		MyDate d1 = new MyDate();
+		printLine();
+		
+		MyDate d2 = new MyDate(10,10,2024);
+		printLine();
+		
+		d1.display();
+		d2.display();
+		
+		d1 = d2;
+		
+	}
+	
+	public static void printLine() {
+		System.out.println("----------------------------------");
+	}
+
+}

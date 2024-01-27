@@ -1,0 +1,14 @@
+package pkg1;
+
+public class Address {
+	private String city;
+	String laneNo;
+	protected int pinCode;
+	public String landmark;
+	
+	Address() {
+		// TODO Auto-generated constructor stub
+	}
+	
+
+}

@@ -1,0 +1,72 @@
+
+public class Employee {
+	
+	private int id;
+	private String name;
+	private double basicSalary;
+	private double hra; //40% of bs
+	private final double FIXED_BONUS = 100;
+	private double pf; //12% of bs
+	
+	public Employee() {
+		this(1,"rajendra",50000.00);
+	}
+
+	public Employee(int id, String name, double basicSalary) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.basicSalary = basicSalary;
+	}
+
+	public int getId() {
+		return id;
+	}
+
+	public void setId(int id) {
+		this.id = id;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+
+	public double getBasicSalary() {
+		return basicSalary;
+	}
+
+	public void setBasicSalary(double basicSalary) {
+		this.basicSalary = basicSalary;
+	}
+
+	public double getHra() {
+		return hra;
+	}
+
+	public double getPf() {
+//		double bs=basicSalary;
+		pf=(this.basicSalary*12)/100;
+		return pf;
+	}
+
+	public double getFIXED_BONUS() {
+		return FIXED_BONUS;
+	}
+	
+	public double computeNetSalary() {
+		return 0.0;
+		//bs+pf+hra+fixed;
+	}
+	
+	public void Display() {
+		System.out.println("Id = "+id);
+		System.out.println("Name = "+name);
+		System.out.println("BasicSalary = "+ basicSalary);
+		System.out.println("PF is = "+pf);
+	}
+	
+}

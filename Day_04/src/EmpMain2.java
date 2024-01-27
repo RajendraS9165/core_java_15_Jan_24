@@ -1,0 +1,12 @@
+
+public class EmpMain2 {
+	
+	public static void main(String[] args) {
+		Employee emp = null;
+		System.out.println(emp.companyName); //not the correct way to call the static member
+		System.out.println(Employee.companyName); //right way to call the static member
+		System.out.println(emp.getBasicSalary());
+		//Employee.setCompanyName();
+	}
+
+}

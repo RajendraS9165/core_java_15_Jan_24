@@ -1,0 +1,9 @@
+
+public class EmpMain2 {
+	
+	public static void main(String[] args) {
+		Employee emp = null;
+		System.out.println(emp.companyName);
+	}
+
+}
