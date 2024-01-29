@@ -13,6 +13,36 @@
 
 
 
+# overloading
+  same name different signature
+  no of parameter
+  type of parameter
+  sequence of parameter
+  signature not depend upon return type
+
+# overriding
+  same name same signature and same return type
+
+## covariant return type
+
+
+
+
+class Emp{
+
+  public Emp(int id){
+
+  }
+
+}
+
+class WE extends Emp{
+  WE(){
+    super(0);
+  }
+}
+
+
 
 
 

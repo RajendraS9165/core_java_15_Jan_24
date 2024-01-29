@@ -2,10 +2,14 @@
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="Employee"/>
     <fullyQualifiedTypeName name="pkg2.Employee"/>
-    <fullyQualifiedTypeName name="pkg1.Employee"/>
     <fullyQualifiedTypeName name="pkg1.Address"/>
     <fullyQualifiedTypeName name="com.invision.Math"/>
     <fullyQualifiedTypeName name="com.invision.comp.Address"/>
     <fullyQualifiedTypeName name="com.invision.comp.Employee"/>
     <fullyQualifiedTypeName name="com.swap.MyDate"/>
+    <fullyQualifiedTypeName name="com.invision.Address"/>
+    <fullyQualifiedTypeName name="com.invision.MyDate"/>
+    <fullyQualifiedTypeName name="com.invision.Employee"/>
+    <fullyQualifiedTypeName name="com.invision.WageEmployee"/>
+    <fullyQualifiedTypeName name="pkg1.Employee"/>
 </qualifiedTypeNameHistroy>
